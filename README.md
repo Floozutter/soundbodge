@@ -1,10 +1,17 @@
 # soundbodge
-A spare-keyboard soundboard for Windows using LuaMacros!
+A spare-keyboard soundboard for Windows using LuaMacros and AutoHotkey!
 
-# Usage
-Paste the following into LuaMacros:
+## Usage
+### Setup
+Add audio files and a `sounds.lua` file to the directory `sounds/`.
+
+### Running
+First, start `listener.ahk` using AutoHotKey.
+
+Then, paste the following into LuaMacros:
 ```lua
 local PATH = "path/to/soundbodge"
 dofile(PATH.."/src/main.lua").main(PATH)
 ```
-Then, fill in the `PATH` variable with the path to this repository, and run!
+Finally, fill in the `PATH` variable with the path to this repository, and
+run!
