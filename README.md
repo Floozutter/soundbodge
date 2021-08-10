@@ -27,4 +27,4 @@ local PATH = "path/to/soundbodge"
 dofile(PATH.."/src/main.lua").main(PATH)
 ```
 3. replace the string assigned to the `PATH` variable with the path to this repository
-4. run the code from LuaMacros and play some sounds!
+4. run the code from LuaMacros and bodge some sounds!
