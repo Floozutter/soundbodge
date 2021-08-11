@@ -1,6 +1,8 @@
 # soundbodge
 a spare-keyboard soundboard for Windows using LuaMacros and AutoHotkey!
 
+inspired by [Tom Scott's "The Art of the Bodge"](https://youtu.be/lIFE7h3m40U)
+
 ## installation
 1. compile [LuaMacros](https://github.com/me2d13/luamacros) from
 [source](https://github.com/me2d13/luamacros/blob/master/DevGuide.md)
