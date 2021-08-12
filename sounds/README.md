@@ -1,12 +1,13 @@
 # sounds
-This directory should contain the audio files to be played by the soundboard,
-and a `sounds.lua` configuration file that defines the keys to be associated
-with the audio files.
+this directory should contain
+- every audio clip to be played through soundbodge as WAVE files (`*.wav`)
+- and a `sounds.lua` configuration file that defines which key plays which audio file
 
-An example `sounds.lua`:
+an example `sounds.lua`:
 ```lua
 local sounds = {}
 
+-- pressing the E key should play example.wav
 sounds[string.byte("E")] = "example.wav"
 
 return sounds
