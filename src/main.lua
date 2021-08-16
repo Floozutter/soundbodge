@@ -3,7 +3,7 @@ local main = {}
 main.current_sound = nil
 main.main = function(path)
 	local sounds = dofile(path.."/sounds/sounds.lua")
-	lmc_assign_keyboard("SOUNDBODGE");
+	lmc_assign_keyboard("SOUNDBODGE")
 	lmc_set_handler(
 	  "SOUNDBODGE",
 	  function(key, direction)
