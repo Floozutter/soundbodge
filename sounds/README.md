@@ -1,6 +1,7 @@
 # sounds
 this directory should contain
-- every audio clip to be played through soundbodge as WAVE files (`*.wav`)
+- every audio clip to be played through soundbodge as files in WAVE format, or in
+[another format supported by AutoHotkey's `SoundPlay` on your system](https://www.autohotkey.com/docs/commands/SoundPlay.htm)
 - and a `sounds.lua` configuration file that defines which key plays which audio file
 
 an example `sounds.lua`:
