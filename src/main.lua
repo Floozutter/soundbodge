@@ -7,9 +7,12 @@ main.main = function(path)
     lmc_set_handler(
         "SOUNDBODGE",
         function(key, direction)
-            if direction ~= 0 or sounds[key] == nil then return end
-            main.current_sound = sounds[key]
-            lmc_send_keys("{F24}")
+            if direction ~= 0 then return end
+            print(key..": "..(sounds[key] or ""))
+            if sounds[key] ~= nil then
+                main.current_sound = sounds[key]
+                lmc_send_keys("{F24}")
+            end
         end
     )
     lmc_http_server(
